@@ -1,0 +1,29 @@
+{
+  "name": "team4_project_migrate_kafkas",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db":"node ./src/database/database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/61050238/team4_project_migrate_kafka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/61050238/team4_project_migrate_kafka/issues"
+  },
+  "homepage": "https://gitlab.com/61050238/team4_project_migrate_kafka#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "kafka": "^0.2.3",
+    "kafkajs": "^2.2.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
